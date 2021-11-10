@@ -5,7 +5,7 @@ We often get asked how Nobl9 handles data backlog in various cases; hence let’
 
 ## 1. How does backlogging work with Nobl9 agents? (for example network issues)
 
-  This is slightly different between the data sources and if you need to find out more about a specific data source; However, in a more general sense, if an agent can’t reach the N9 data intake, it caches using FIFO method and retries indefinitely. If the lack of connection takes too long, it may exhaust the cache. t is also worth noting that the cache is user configurable by how much memory is allocated to the container. 
+  This is slightly different between the data sources; However, in a more general sense, if an agent can’t reach the N9 data intake, it caches using FIFO method and retries indefinitely. If the lack of connection takes too long, it may exhaust the cache. It is also worth noting that the cache is user configurable by how much memory is allocated to the container. 
 This lack of data could impact the Error Budget but our product team is working to address this impact and shine more lights on it in our future releases.
 
 
